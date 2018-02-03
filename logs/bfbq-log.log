@@ -1,0 +1,45 @@
+[ERROR] 2017-12-13 15:01:39,995-web.py:1590 Uncaught exception GET /messages (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:9092', method='GET', uri='/messages', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Host': '127.0.0.1:9092', 'Accept': '*/*', 'User-Agent': 'curl/7.54.0'})
+Traceback (most recent call last):
+  File "/Users/datagrand/test/env2/lib/python2.7/site-packages/tornado/web.py", line 1488, in _execute
+    result = self.prepare()
+  File "/Users/datagrand/test/Privatization/base/tag/beifang/code/message_push/message_push/handlers/base.py", line 13, in prepare
+    self.log.info(self.ret)
+AttributeError: 'MessagesHandler' object has no attribute 'log'
+[ERROR] 2017-12-13 15:01:39,998-web.py:2063 500 GET /messages (127.0.0.1) 4.67ms
+[INFO] 2017-12-13 15:02:25,561-base.py:13 {'status': 0, 'request_id': '1513148545561696'}
+[INFO] 2017-12-13 15:02:25,563-web.py:2063 200 GET /messages (127.0.0.1) 1.91ms
+[INFO] 2017-12-13 15:10:51,879-base.py:13 {'status': 0, 'message': 'Success!', 'request_id': '1513149051879356'}
+[INFO] 2017-12-13 15:10:51,880-web.py:2063 200 GET /messages (127.0.0.1) 1.51ms
+[INFO] 2017-12-13 15:11:41,906-base.py:13 {'status': 0, 'message': 'Success!', 'request_id': '1513149101906963'}
+[INFO] 2017-12-13 15:11:41,907-web.py:2063 200 GET /messages (127.0.0.1) 1.72ms
+[INFO] 2017-12-13 15:11:48,577-base.py:13 {'status': 0, 'message': 'Success!', 'request_id': '1513149108577928'}
+[INFO] 2017-12-13 15:11:48,579-web.py:2063 200 GET /messages?mtype=123 (127.0.0.1) 1.61ms
+[INFO] 2017-12-13 15:12:59,059-base.py:13 {'status': 0, 'message': 'Success!', 'request_id': '1513149179059064'}
+[INFO] 2017-12-13 15:12:59,059-web.py:2063 200 POST /messages?mtype=123 (127.0.0.1) 1.24ms
+[INFO] 2017-12-13 15:13:19,737-base.py:13 {'status': 0, 'message': '', 'request_id': '1513149199737187'}
+[INFO] 2017-12-13 15:13:19,737-web.py:2063 200 POST /messages?mtype=123 (127.0.0.1) 0.97ms
+[INFO] 2017-12-13 15:13:33,005-base.py:13 {'status': 0, 'message': '', 'request_id': '1513149213005836'}
+[INFO] 2017-12-13 15:13:33,006-web.py:2063 200 POST /messages?mtype=123 (127.0.0.1) 0.75ms
+[INFO] 2017-12-13 15:16:41,709-base.py:13 {'status': 0, 'message': '', 'request_id': '1513149401709157'}
+[ERROR] 2017-12-13 15:16:41,709-web.py:1590 Uncaught exception POST /messages?mtype=123 (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1:9092', method='POST', uri='/messages?mtype=123', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Host': '127.0.0.1:9092', 'Accept': '*/*', 'User-Agent': 'curl/7.54.0'})
+Traceback (most recent call last):
+  File "/Users/datagrand/test/env2/lib/python2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/datagrand/test/Privatization/base/tag/beifang/code/message_push/message_push/handlers/messages.py", line 14, in post
+    self.log.info('123')
+AttributeError: 'MessagesHandler' object has no attribute 'log'
+[ERROR] 2017-12-13 15:16:41,713-web.py:2063 500 POST /messages?mtype=123 (127.0.0.1) 6.44ms
+[INFO] 2017-12-13 15:17:48,532-base.py:13 {'status': 0, 'message': '', 'request_id': '1513149468532346'}
+[INFO] 2017-12-13 15:17:48,532-log.py:74 12345
+[INFO] 2017-12-13 15:17:48,533-web.py:2063 200 POST /messages?mtype=123 (127.0.0.1) 1.57ms
+[INFO] 2017-12-13 15:19:32,895-base.py:24 {'status': 0, 'message': '', 'request_id': '1513149572895379'}
+[INFO] 2017-12-13 15:19:32,895-log.py:74 12345
+[INFO] 2017-12-13 15:19:32,896-web.py:2063 200 POST /messages?mtype=123 (127.0.0.1) 1.48ms
+[INFO] 2017-12-13 15:19:46,947-base.py:24 {'status': 0, 'message': '', 'request_id': '1513149586947082'}
+[INFO] 2017-12-13 15:19:46,947-log.py:74 12345
+[INFO] 2017-12-13 15:19:46,947-web.py:2063 200 POST /messages?mtype=123 (127.0.0.1) 0.80ms
+[INFO] 2017-12-13 15:19:53,819-base.py:24 {'status': 0, 'message': '', 'request_id': '1513149593819726'}
+[INFO] 2017-12-13 15:19:53,820-log.py:74 haha
+[INFO] 2017-12-13 15:19:53,820-web.py:2063 200 POST /messages?mtype=123 (127.0.0.1) 1.32ms
