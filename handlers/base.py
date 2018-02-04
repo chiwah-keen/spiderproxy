@@ -8,12 +8,8 @@ from tornado import web, gen
 
 class BaseHandler(web.RequestHandler):
     @property
-    def mysqldb(self):
-        return self.application.mysqldb
-
-    @property
-    def redisdb(self):
-        return self.application.redisdb
+    def caches(self):
+        return self.application.caches
 
     @property
     def log(self):

@@ -43,3 +43,296 @@ AttributeError: 'MessagesHandler' object has no attribute 'log'
 [INFO] 2017-12-13 15:19:53,819-base.py:24 {'status': 0, 'message': '', 'request_id': '1513149593819726'}
 [INFO] 2017-12-13 15:19:53,820-log.py:74 haha
 [INFO] 2017-12-13 15:19:53,820-web.py:2063 200 POST /messages?mtype=123 (127.0.0.1) 1.32ms
+[INFO] 2018-02-04 14:27:24,819-base.py:20 {'status': 0, 'message': '', 'request_id': '1517725644819580'}
+[ERROR] 2018-02-04 14:27:24,837-log.py:92 Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxy.py", line 17, in get
+    for k, v in config.PROXY_SITES:
+ValueError: too many values to unpack
+Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxy.py", line 17, in get
+    for k, v in config.PROXY_SITES:
+ValueError: too many values to unpack
+[INFO] 2018-02-04 14:27:24,838-web.py:2063 200 GET / (::1) 19.54ms
+[WARNING] 2018-02-04 14:27:25,044-web.py:2063 404 GET /favicon.ico (::1) 0.35ms
+[INFO] 2018-02-04 14:27:51,791-base.py:20 {'status': 0, 'message': '', 'request_id': '1517725671791069'}
+[INFO] 2018-02-04 14:27:51,805-web.py:2063 200 GET / (::1) 16.43ms
+[INFO] 2018-02-04 14:31:36,277-base.py:20 {'status': 0, 'message': '', 'request_id': '1517725896277039'}
+[INFO] 2018-02-04 14:31:36,286-web.py:2063 200 GET / (::1) 10.22ms
+[WARNING] 2018-02-04 14:32:17,650-web.py:2063 404 GET /proxy/list\?type\=kuaidaili\&uid\=48eed0f8-4df0-4749-8c92-dcfd9273524e\&ttl\=300 (192.168.199.231) 0.61ms
+[INFO] 2018-02-04 14:33:06,504-base.py:20 {'status': 0, 'message': '', 'request_id': '1517725986504790'}
+[INFO] 2018-02-04 14:33:06,508-web.py:2063 200 GET /proxy/list?type=kuaidaili&uid=48eed0f8-4df0-4749-8c92-dcfd9273524e&ttl=300 (127.0.0.1) 4.67ms
+[WARNING] 2018-02-04 14:33:06,772-web.py:2063 404 GET /favicon.ico (127.0.0.1) 0.71ms
+[INFO] 2018-02-04 14:40:49,730-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726449730918'}
+[INFO] 2018-02-04 14:40:49,739-web.py:2063 200 GET / (127.0.0.1) 9.25ms
+[INFO] 2018-02-04 14:41:03,260-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726463260101'}
+[INFO] 2018-02-04 14:41:03,262-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=2f1c4e51-0386-4f71-83a6-a6ed73bd9eb2&ttl=300 (192.168.199.231) 2.97ms
+[WARNING] 2018-02-04 14:41:03,552-web.py:2063 404 GET /favicon.ico (192.168.199.231) 0.52ms
+[INFO] 2018-02-04 14:41:33,444-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726493444434'}
+[INFO] 2018-02-04 14:41:33,446-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=2f1c4e51-0386-4f71-83a6-a6ed73bd9eb2&ttl=300 (192.168.199.231) 3.83ms
+[INFO] 2018-02-04 14:41:36,950-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726496950335'}
+[INFO] 2018-02-04 14:41:36,969-web.py:2063 200 GET / (192.168.199.231) 19.81ms
+[INFO] 2018-02-04 14:41:47,703-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726507703836'}
+[INFO] 2018-02-04 14:41:47,704-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.19ms
+[INFO] 2018-02-04 14:42:28,863-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726548863874'}
+[INFO] 2018-02-04 14:42:28,864-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.64ms
+[INFO] 2018-02-04 14:43:16,853-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726596853097'}
+[INFO] 2018-02-04 14:43:16,854-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.47ms
+[INFO] 2018-02-04 14:43:50,379-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726630379614'}
+[INFO] 2018-02-04 14:43:50,380-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.65ms
+[INFO] 2018-02-04 14:44:23,470-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726663470722'}
+[INFO] 2018-02-04 14:44:23,471-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.72ms
+[INFO] 2018-02-04 14:44:34,430-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726674430558'}
+[INFO] 2018-02-04 14:44:34,431-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.68ms
+[INFO] 2018-02-04 14:45:09,500-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726709500558'}
+[INFO] 2018-02-04 14:45:09,501-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.56ms
+[INFO] 2018-02-04 14:46:04,742-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726764742910'}
+[INFO] 2018-02-04 14:46:04,744-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 2.55ms
+[INFO] 2018-02-04 14:46:43,860-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726803860180'}
+[INFO] 2018-02-04 14:46:43,860-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.23ms
+[INFO] 2018-02-04 14:47:40,811-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726860811831'}
+[INFO] 2018-02-04 14:47:40,812-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.41ms
+[INFO] 2018-02-04 14:47:51,414-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726871414842'}
+[INFO] 2018-02-04 14:47:51,415-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.26ms
+[INFO] 2018-02-04 14:48:10,980-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726890980234'}
+[INFO] 2018-02-04 14:48:10,980-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.06ms
+[INFO] 2018-02-04 14:48:51,977-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726931977513'}
+[INFO] 2018-02-04 14:48:51,982-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 5.40ms
+[INFO] 2018-02-04 14:49:34,881-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726974881348'}
+[INFO] 2018-02-04 14:49:36,149-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1268.85ms
+[INFO] 2018-02-04 14:49:41,812-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726981812319'}
+[INFO] 2018-02-04 14:49:42,134-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 322.83ms
+[INFO] 2018-02-04 14:49:42,907-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726982907591'}
+[INFO] 2018-02-04 14:49:43,156-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 249.23ms
+[INFO] 2018-02-04 14:49:43,831-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726983831792'}
+[ERROR] 2018-02-04 14:49:43,967-proxyparser.py:35 Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxyparser.py", line 24, in parse_kuaidaili_proxy
+    btbody = btable.find('tbody')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+[INFO] 2018-02-04 14:49:44,281-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 450.33ms
+[INFO] 2018-02-04 14:49:44,878-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726984878890'}
+[ERROR] 2018-02-04 14:49:45,007-proxyparser.py:35 Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxyparser.py", line 24, in parse_kuaidaili_proxy
+    btbody = btable.find('tbody')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+[INFO] 2018-02-04 14:49:45,176-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 298.18ms
+[INFO] 2018-02-04 14:49:45,766-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726985766868'}
+[ERROR] 2018-02-04 14:49:45,917-proxyparser.py:35 Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxyparser.py", line 24, in parse_kuaidaili_proxy
+    btbody = btable.find('tbody')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+[ERROR] 2018-02-04 14:49:46,046-proxyparser.py:35 Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxyparser.py", line 24, in parse_kuaidaili_proxy
+    btbody = btable.find('tbody')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+[INFO] 2018-02-04 14:49:46,357-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 590.94ms
+[INFO] 2018-02-04 14:49:46,437-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726986437160'}
+[ERROR] 2018-02-04 14:49:46,562-proxyparser.py:35 Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxyparser.py", line 24, in parse_kuaidaili_proxy
+    btbody = btable.find('tbody')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+[ERROR] 2018-02-04 14:49:46,682-proxyparser.py:35 Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxyparser.py", line 24, in parse_kuaidaili_proxy
+    btbody = btable.find('tbody')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+[ERROR] 2018-02-04 14:49:46,819-proxyparser.py:35 Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxyparser.py", line 24, in parse_kuaidaili_proxy
+    btbody = btable.find('tbody')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+[ERROR] 2018-02-04 14:49:46,952-proxyparser.py:35 Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxyparser.py", line 24, in parse_kuaidaili_proxy
+    btbody = btable.find('tbody')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+[ERROR] 2018-02-04 14:49:47,085-proxyparser.py:35 Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxyparser.py", line 24, in parse_kuaidaili_proxy
+    btbody = btable.find('tbody')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+[INFO] 2018-02-04 14:49:47,086-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 649.54ms
+[INFO] 2018-02-04 14:49:47,425-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726987425876'}
+[INFO] 2018-02-04 14:49:47,734-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 308.36ms
+[INFO] 2018-02-04 14:49:48,577-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726988577091'}
+[INFO] 2018-02-04 14:49:48,824-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 247.70ms
+[INFO] 2018-02-04 14:49:49,380-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726989380391'}
+[ERROR] 2018-02-04 14:49:49,503-proxyparser.py:35 Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxyparser.py", line 24, in parse_kuaidaili_proxy
+    btbody = btable.find('tbody')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+[ERROR] 2018-02-04 14:49:49,642-proxyparser.py:35 Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxyparser.py", line 24, in parse_kuaidaili_proxy
+    btbody = btable.find('tbody')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+[INFO] 2018-02-04 14:49:49,962-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 582.63ms
+[INFO] 2018-02-04 14:49:50,445-base.py:20 {'status': 0, 'message': '', 'request_id': '1517726990444990'}
+[ERROR] 2018-02-04 14:49:50,571-proxyparser.py:35 Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxyparser.py", line 24, in parse_kuaidaili_proxy
+    btbody = btable.find('tbody')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+[ERROR] 2018-02-04 14:49:50,694-proxyparser.py:35 Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxyparser.py", line 24, in parse_kuaidaili_proxy
+    btbody = btable.find('tbody')
+AttributeError: 'NoneType' object has no attribute 'find'
+
+[INFO] 2018-02-04 14:49:50,928-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 483.79ms
+[INFO] 2018-02-04 14:50:23,127-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727023127016'}
+[INFO] 2018-02-04 14:50:23,306-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 180.03ms
+[INFO] 2018-02-04 14:50:33,999-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727033999607'}
+[INFO] 2018-02-04 14:50:34,241-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 242.40ms
+[INFO] 2018-02-04 14:51:06,521-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727066521220'}
+[INFO] 2018-02-04 14:51:06,861-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 340.91ms
+[INFO] 2018-02-04 14:51:18,247-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727078246958'}
+[INFO] 2018-02-04 14:51:18,566-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 319.67ms
+[INFO] 2018-02-04 14:52:51,711-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727171711421'}
+[INFO] 2018-02-04 14:52:52,119-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 408.66ms
+[INFO] 2018-02-04 14:52:56,117-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727176117713'}
+[INFO] 2018-02-04 14:52:56,418-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 301.47ms
+[INFO] 2018-02-04 14:53:37,893-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727217893334'}
+[INFO] 2018-02-04 14:53:38,217-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 324.77ms
+[INFO] 2018-02-04 14:53:53,153-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727233153377'}
+[INFO] 2018-02-04 14:53:53,403-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 249.91ms
+[INFO] 2018-02-04 14:54:34,389-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727274389453'}
+[ERROR] 2018-02-04 14:54:34,391-log.py:92 Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxy.py", line 37, in get
+    proxies = self.get_proxy(uid, ptype, ttl)
+  File "/Users/datagrand/test/spiderproxy/handlers/proxy.py", line 46, in get_proxy
+    print self.caches, '++=', int(time.time()) - self.caches[uid]['timestamp'] > ttl
+KeyError: 'timestamp'
+Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxy.py", line 37, in get
+    proxies = self.get_proxy(uid, ptype, ttl)
+  File "/Users/datagrand/test/spiderproxy/handlers/proxy.py", line 46, in get_proxy
+    print self.caches, '++=', int(time.time()) - self.caches[uid]['timestamp'] > ttl
+KeyError: 'timestamp'
+[INFO] 2018-02-04 14:54:34,392-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 3.81ms
+[INFO] 2018-02-04 14:55:49,300-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727349300722'}
+[INFO] 2018-02-04 14:55:49,647-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 347.84ms
+[INFO] 2018-02-04 14:56:19,992-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727379992248'}
+[INFO] 2018-02-04 14:56:20,188-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 196.92ms
+[INFO] 2018-02-04 14:56:27,747-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727387747589'}
+[INFO] 2018-02-04 14:56:27,977-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 230.19ms
+[INFO] 2018-02-04 14:58:31,070-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727511070329'}
+[INFO] 2018-02-04 14:58:31,251-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 181.59ms
+[INFO] 2018-02-04 14:58:36,207-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727516207821'}
+[INFO] 2018-02-04 14:58:36,533-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 326.27ms
+[INFO] 2018-02-04 14:59:16,722-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727556722719'}
+[INFO] 2018-02-04 14:59:16,967-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 245.20ms
+[INFO] 2018-02-04 14:59:17,600-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727557600762'}
+[ERROR] 2018-02-04 14:59:17,601-log.py:92 Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxy.py", line 37, in get
+    proxies = self.get_proxy(uid, ptype, ttl)
+  File "/Users/datagrand/test/spiderproxy/handlers/proxy.py", line 49, in get_proxy
+    return self.caches[uid]['proxys']
+KeyError: 'proxys'
+Traceback (most recent call last):
+  File "/Users/datagrand/test/spiderproxy/handlers/proxy.py", line 37, in get
+    proxies = self.get_proxy(uid, ptype, ttl)
+  File "/Users/datagrand/test/spiderproxy/handlers/proxy.py", line 49, in get_proxy
+    return self.caches[uid]['proxys']
+KeyError: 'proxys'
+[INFO] 2018-02-04 14:59:17,602-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.61ms
+[INFO] 2018-02-04 15:00:13,381-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727613381734'}
+[INFO] 2018-02-04 15:00:13,600-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 219.44ms
+[INFO] 2018-02-04 15:00:14,827-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727614826985'}
+[INFO] 2018-02-04 15:00:14,828-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.67ms
+[INFO] 2018-02-04 15:00:16,122-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727616122464'}
+[INFO] 2018-02-04 15:00:16,123-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.20ms
+[INFO] 2018-02-04 15:00:16,711-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727616711371'}
+[INFO] 2018-02-04 15:00:16,712-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.63ms
+[INFO] 2018-02-04 15:00:17,175-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727617175585'}
+[INFO] 2018-02-04 15:00:17,176-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.30ms
+[INFO] 2018-02-04 15:00:17,799-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727617799840'}
+[INFO] 2018-02-04 15:00:17,800-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.88ms
+[INFO] 2018-02-04 15:00:18,291-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727618291422'}
+[INFO] 2018-02-04 15:00:18,292-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.28ms
+[INFO] 2018-02-04 15:00:18,634-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727618634674'}
+[INFO] 2018-02-04 15:00:18,635-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.92ms
+[INFO] 2018-02-04 15:00:19,060-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727619060265'}
+[INFO] 2018-02-04 15:00:19,061-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.95ms
+[INFO] 2018-02-04 15:01:06,502-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727666502519'}
+[INFO] 2018-02-04 15:01:06,763-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 261.41ms
+[INFO] 2018-02-04 15:01:07,666-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727667666908'}
+[INFO] 2018-02-04 15:01:07,668-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.68ms
+[INFO] 2018-02-04 15:01:12,425-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727672424974'}
+[INFO] 2018-02-04 15:01:12,425-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.00ms
+[INFO] 2018-02-04 15:01:13,106-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727673106907'}
+[INFO] 2018-02-04 15:01:13,107-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.90ms
+[INFO] 2018-02-04 15:01:13,641-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727673641834'}
+[INFO] 2018-02-04 15:01:13,642-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.88ms
+[INFO] 2018-02-04 15:01:14,068-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727674068216'}
+[INFO] 2018-02-04 15:01:14,068-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.02ms
+[INFO] 2018-02-04 15:01:14,339-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727674339222'}
+[INFO] 2018-02-04 15:01:14,339-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.76ms
+[INFO] 2018-02-04 15:01:14,579-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727674579361'}
+[INFO] 2018-02-04 15:01:14,580-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.94ms
+[INFO] 2018-02-04 15:01:14,785-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727674785430'}
+[INFO] 2018-02-04 15:01:14,786-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.79ms
+[INFO] 2018-02-04 15:01:15,056-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727675056573'}
+[INFO] 2018-02-04 15:01:15,057-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.76ms
+[INFO] 2018-02-04 15:01:15,300-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727675300901'}
+[INFO] 2018-02-04 15:01:15,304-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 3.93ms
+[INFO] 2018-02-04 15:01:15,561-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727675561919'}
+[INFO] 2018-02-04 15:01:15,562-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.02ms
+[INFO] 2018-02-04 15:01:15,821-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727675821586'}
+[INFO] 2018-02-04 15:01:15,822-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.98ms
+[INFO] 2018-02-04 15:01:16,046-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727676046216'}
+[INFO] 2018-02-04 15:01:16,047-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.99ms
+[INFO] 2018-02-04 15:01:16,337-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727676337505'}
+[INFO] 2018-02-04 15:01:16,338-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.79ms
+[INFO] 2018-02-04 15:01:16,592-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727676592008'}
+[INFO] 2018-02-04 15:01:16,592-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.79ms
+[INFO] 2018-02-04 15:01:16,922-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727676922541'}
+[INFO] 2018-02-04 15:01:16,923-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.93ms
+[INFO] 2018-02-04 15:01:17,306-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727677306502'}
+[INFO] 2018-02-04 15:01:17,307-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.86ms
+[INFO] 2018-02-04 15:01:17,651-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727677651165'}
+[INFO] 2018-02-04 15:01:17,651-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.80ms
+[INFO] 2018-02-04 15:01:17,868-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727677868816'}
+[INFO] 2018-02-04 15:01:17,869-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.73ms
+[INFO] 2018-02-04 15:01:18,050-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727678050760'}
+[INFO] 2018-02-04 15:01:18,051-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.77ms
+[INFO] 2018-02-04 15:01:18,200-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727678200639'}
+[INFO] 2018-02-04 15:01:18,201-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.83ms
+[INFO] 2018-02-04 15:01:18,522-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727678522601'}
+[INFO] 2018-02-04 15:01:18,523-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.90ms
+[INFO] 2018-02-04 15:01:18,722-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727678722655'}
+[INFO] 2018-02-04 15:01:18,723-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.15ms
+[INFO] 2018-02-04 15:01:18,906-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727678906502'}
+[INFO] 2018-02-04 15:01:18,907-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.73ms
+[INFO] 2018-02-04 15:01:19,096-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727679096525'}
+[INFO] 2018-02-04 15:01:19,097-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.24ms
+[INFO] 2018-02-04 15:01:19,254-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727679254469'}
+[INFO] 2018-02-04 15:01:19,255-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.76ms
+[INFO] 2018-02-04 15:01:19,434-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727679434701'}
+[INFO] 2018-02-04 15:01:19,435-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.78ms
+[INFO] 2018-02-04 15:01:19,647-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727679647018'}
+[INFO] 2018-02-04 15:01:19,648-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.65ms
+[INFO] 2018-02-04 15:01:19,817-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727679817465'}
+[INFO] 2018-02-04 15:01:19,818-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.78ms
+[INFO] 2018-02-04 15:01:20,000-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727680000155'}
+[INFO] 2018-02-04 15:01:20,001-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 1.27ms
+[INFO] 2018-02-04 15:01:20,184-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727680184632'}
+[INFO] 2018-02-04 15:01:20,185-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.79ms
+[INFO] 2018-02-04 15:01:20,367-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727680367696'}
+[INFO] 2018-02-04 15:01:20,368-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.67ms
+[INFO] 2018-02-04 15:01:20,600-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727680600663'}
+[INFO] 2018-02-04 15:01:20,601-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.66ms
+[INFO] 2018-02-04 15:01:20,824-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727680824540'}
+[INFO] 2018-02-04 15:01:20,825-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.84ms
+[INFO] 2018-02-04 15:01:21,021-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727681021229'}
+[INFO] 2018-02-04 15:01:21,021-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.78ms
+[INFO] 2018-02-04 15:01:21,187-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727681187261'}
+[INFO] 2018-02-04 15:01:21,187-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.71ms
+[INFO] 2018-02-04 15:01:21,335-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727681335576'}
+[INFO] 2018-02-04 15:01:21,336-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.72ms
+[INFO] 2018-02-04 15:01:21,490-base.py:20 {'status': 0, 'message': '', 'request_id': '1517727681490330'}
+[INFO] 2018-02-04 15:01:21,491-web.py:2063 200 GET /proxy/list?ptype=kuaidaili&uid=0d432a865b7f4158a7dca57d1b54777a&ttl=300 (192.168.199.231) 0.91ms
