@@ -45,9 +45,7 @@ class ProxyListHandler(BaseHandler):
     def get_proxy(self, uid, ptye, ttl):
         if self.caches.get(uid) and int(time.time()) - self.caches[uid]['timestamp'] < ttl:
             self.caches[uid]['ttl'] = ttl
-            print 2
             return self.caches[uid]['proxies']
-        print 1
         proxies = self.get_site_proxy(ptye)
         if not proxies: return []
         self.caches[uid] = {'timestamp': int(time.time()),

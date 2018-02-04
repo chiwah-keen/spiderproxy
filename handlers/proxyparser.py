@@ -25,9 +25,10 @@ def parse_kuaidaili_proxy():
         proxy_list = []
         for btline in btbody.find_all('tr'):
             proxy_info = dict()
-            proxy_info['ip'] = btline.find('td', {'data-title': 'IP'}).text
-            proxy_info['port'] = btline.find('td', {'data-title': 'PORT'}).text
+            proxy_info['ip'] = btline.find('td', {'data-title': 'IP'}).text.strip()
+            proxy_info['port'] = btline.find('td', {'data-title': 'PORT'}).text.strip()
             proxy_info['spd'] = btline.find('td', {'data-title': '响应速度'}).text.replace('秒', 's')
+            proxy_info['proxy'] = 'http://%s:%s' % (proxy_info['ip'], proxy_info['port'])
             proxy_list.append(proxy_info)
         return proxy_list
     except Exception as e:
