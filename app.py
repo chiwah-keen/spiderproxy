@@ -4,8 +4,6 @@
 
 import sys
 import socket
-import torndb
-import redis
 from tornado import httpserver, ioloop
 from tornado import web
 from conf import config
